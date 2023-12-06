@@ -38,7 +38,7 @@ const Header = ({ data }) => {
         }`}
       >
         {/* Brand */}
-        <div className="logo">
+        {/* <div className="logo">
           <Link className="navbar-brand" to="/">
             <img
               className="logo-dark"
@@ -53,7 +53,7 @@ const Header = ({ data }) => {
               src={logoLight}
             />
           </Link>
-        </div>
+        </div> */}
         {/* / */}
         <ul className="main-menu">
           <li>
@@ -117,7 +117,7 @@ const Header = ({ data }) => {
             </ScrollLink>
           </li>
         </ul>
-        <ul className="nav social-link">
+        {/* <ul className="nav social-link">
           {socialData.map((element, index) => (
             <li key={index}>
               <a href={element.link} target="_blank" rel="noopener noreferrer">
@@ -125,7 +125,7 @@ const Header = ({ data }) => {
               </a>
             </li>
           ))}
-        </ul>
+        </ul> */}
       </div>
       {/* End Header Top */}
     </header>

@@ -31,9 +31,9 @@ const Hero = ({ data }) => {
               <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">{perser(title)}</h1>
               <p className="lead" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">{perser(subTitle)}</p>
               <div className="btn-bar" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
-                <ScrollLink to="contact" spy={true} className="px-btn">
+                <a href="https://www.linkedin.com/in/arbaz-bagwan/" spy={true} className="px-btn">
                   LinkedIn
-                  <Icon icon="bi:arrow-up-right" /></ScrollLink>
+                  <Icon icon="bi:arrow-up-right" /></a>
               </div>
               <div className="info-bar" data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
                 <p><Icon icon="bi-phone" /><span>{phone}</span></p>
@@ -43,7 +43,7 @@ const Hero = ({ data }) => {
           </div>
         </div>
       </div>
-      <div className="hb-me" style={{ backgroundImage: `url(${ImgLink})` }} data-aos="fade-left" data-aos-duration="800" data-aos-delay="800"/>
+      {/* <div className="hb-me" style={{ backgroundImage: `url(${ImgLink})` }} data-aos="fade-left" data-aos-duration="800" data-aos-delay="800"/> */}
       <div className="social-fix">
         <div className="social-links" >
           {
